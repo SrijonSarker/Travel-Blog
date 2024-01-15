@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.banner-section{
+    /* border: 2px solid red; */
+    
+    /* max-width: 1170px; */
+    /* width:1170px ; */
+    margin: 140px 135px ;
+    height: 600px;
+    /* display: flex; */
+
+    object-fit: cover;
+    border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('Images/Group\ 13\ \(1\)\ \(1\).png');
+background-repeat: no-repeat;
+background-size: cover; /* Adjust based on your preference */
+background-position: center;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+   
+}
+.banner-text{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    color: #FFF;
+font-size:4rem;
+font-weight: 800;
+text-align: center;
+}
+
+.banner-description{
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-top: 24px;
+
+}
+
+.inputs{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: white;
+    
+    
+}
+.inputs-container{
+    display: flex;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+/* border: 2px solid red; */
+padding: 16px;
+gap:24px;
+margin-top: 48px;
+}
+
+.btn-primary{
+    border-radius: 8px;
+background: #FF5400;
+width: 174px;
+height: 52px;
+color: #FFF;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+font-weight: 700;
+border: none;
+
+}
+#button{
+    margin-top: 32px;
+}
+.popular-section{
+    /* border: 2px solid red; */
+    /* max-width: 1250px; */
+    /* margin: 0 auto;
+     min-height:400px ;  */
+     margin: 140px 135px ;
+    height: 600px;
+     display: flex;
+     gap:50px;
+}
+.popular-content{
+    /* border: 2px solid yellow; */
+    width: 50%;
+}
+.popular-img{
+    /* border: 2px solid blue; */
+    width: 50%;
+    position: relative;
+}
+.popular-img img{
+    border-radius: 16px;
+background: url('Images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
+width: 100%;
+display: block;
+height: 100%;
+margin: 0 auto;
+object-fit: cover;
+}
+.popular-title{
+    color: #131318;
+/* text-align: center; */
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+/* .popular-list{
+    /* padding: 5px; */
+
+.list-items{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    list-style-position: inside; 
+    padding-left: 8px; 
+    padding-bottom: 24px;
+
+}
+.popular-description{
+    color: rgba(19, 19, 24, 0.70);
+  padding: 24px 0px;
+font-size: 16px;
+
+font-weight: 400;
+
+}
+
+
+@media screen and (max-width:600px) {
+    .banner-title{
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+       text-align: center;
+
+    }
+    .banner-description{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    .inputs-container{
+        display: flex;
+        border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 287px;
+padding: 16px;
+flex-direction: column;
+/* align-items: flex-start; */
+gap: 16px;
+align-items: center;
+    }
+
+    .banner-section{
+        /* border: 2px solid red; */
+        
+        /* max-width: 1170px; */
+        /* width:1170px ; */
+        margin: 20px 24px ;
+        /* height: 600px; */
+        /* display: flex; */
+    
+        object-fit: cover;
+        border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust based on your preference */
+    background-position: center;
+    }
+    .popular-section{
+        /* border: 2px solid red; */
+        /* max-width: 1250px; */
+        /* margin: 0 auto;
+         min-height:400px ;  */
+         margin: 24px 20px ;
+        /* height: 600px; */
+         display: flex;
+         gap:24px;
+         flex-direction: column;
+    }
+    .popular-content{
+        width: 100%;
+    }
+    .popular-img{
+        width:100%;
+    }
+    .list-items{
+        padding-bottom: 12px ;
+    }
+}
+
